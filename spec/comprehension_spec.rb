@@ -269,8 +269,10 @@ describe "GIT" do
     encoded_answer = "d81d22fb57ad5589d12d6363f4160b33232c3510"
     expect(encode(answer)).to eq(encoded_answer)
   end
+   
     # "ahead" or "behind" or "ahead and behind"
     answer = "?"
     encoded_answer = "d81d22fb57ad5589d12d6363f4160b33232c3510"
     expect(encode(answer)).to eq(encoded_answer)
   end
+end
